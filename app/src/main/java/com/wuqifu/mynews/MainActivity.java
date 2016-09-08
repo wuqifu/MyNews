@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
         List<NewsBean> newsBeanList = new ArrayList<>();
         try {
             String jsonString = readStream(new URL(url).openStream());
-            //Log.d("xys", jsonString);
+            Log.d("xys", jsonString);
             JSONObject jsonObject;
             NewsBean newsBean;
             try {
