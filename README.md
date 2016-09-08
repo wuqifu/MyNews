@@ -1,0 +1,2 @@
+# MyNews
+Test Android programming.
